@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Владислав &amp; Александра</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Montserrat:400,500,600&display=swap"
+        rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <section id="hero">
+        <div class="hero-content" data-aos="fade">
+            <h1>Владислав &amp; Александра</h1>
+            <p class="date">20.06.2025</p>
+        </div>
+        <div class="decorative-line"></div>
+        <div class="decorative-circle"></div>
+    </section>
+
+    <section id="transition">
+        <p data-aos="fade" data-aos-delay="100">Дорогие наши друзья и самые близкие!</p>
+        <p data-aos="fade" data-aos-delay="200">Сердца наши переполняются счастьем, и мы хотим поделиться этим с вами —
+            мы решили связать свои судьбы и стать одной семьёй!</p>
+        <p data-aos="fade" data-aos-delay="300">20 июня 2025 года станет для нас особенным днём, и мы будем бесконечно
+            рады, если вы станете частью этого волшебного момента.</p>
+        <p data-aos="fade" data-aos-delay="400">Ваше присутствие сделает наш праздник ещё ярче и теплее!</p>
+        <p data-aos="fade" data-aos-delay="500">С любовью, Владислав и Александра ❤️</p>
+    </section>
+
+    <section id="venue">
+        <h2 data-aos="fade-right">Место проведения</h2>
+        <div class="venue-details" data-aos="fade-up" data-aos-delay="100">
+            <p><strong>Адрес:</strong> Тюмень, ул. Республики, д. 246а<br>
+                <strong>Банкетный зал:</strong> Hellen Hall
+            </p>
+        </div>
+
+        <div class="venue-gallery" data-aos="fade-up" data-aos-delay="200">
+            <img src="hellenhall1.jpg" alt="Фотография зала">
+            <img src="hellenhall2.jpg" alt="Фотография зала">
+            <img src="hellenhall3.jpg" alt="Фотография зала">
+        </div>
+        <div class="map-section" data-aos="fade-up" data-aos-delay="300">
+            <button id="openMap">Открыть на карте</button>
+        </div>
+    </section>
+
+    <section id="timing">
+        <h2 data-aos="zoom-in">Тайминг</h2>
+        <div class="timeline" data-aos="fade-up" data-aos-delay="100">
+            <div class="event" data-aos="flip-left" data-aos-delay="150">
+                <h3>16:00</h3>
+                <p>Сбор гостей / Фуршет</p>
+            </div>
+            <div class="event" data-aos="flip-left" data-aos-delay="250">
+                <h3>16:45</h3>
+                <p>Выездная регистрация</p>
+            </div>
+            <div class="event" data-aos="flip-left" data-aos-delay="350">
+                <h3>17:15</h3>
+                <p>Начало банкета</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="dress-code">
+        <h2 data-aos="fade-right">Дресс-код</h2>
+        <div class="content" data-aos="fade-up" data-aos-delay="100">
+            <p>Мы очень старались создать праздник мечты и будем рады, если в своих нарядах вы поддержите цветовую гамму
+                нашей свадьбы!</p>
+            <div class="color-palette">
+                <div class="color-circle" style="background-color: #9F7964;"></div>
+                <div class="color-circle" style="background-color: #CDA38B;"></div>
+                <div class="color-circle" style="background-color: #E4C9B8;"></div>
+                <div class="color-circle" style="background-color: #F4EBE2;"></div>
+                <div class="color-circle" style="background-color: #FFFFFF; border: 1px solid #ddd;"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="details">
+        <h2 data-aos="fade-left">Детали</h2>
+        <div class="content" data-aos="fade-up" data-aos-delay="100">
+            <p>Если вы желаете поздравить нас, мы будем благодарны денежным подаркам и обещаем найти им самое лучшее
+                применение.</p>
+        </div>
+    </section>
+    <section id="rsvp">
+        <h2 data-aos="fade-up">Пожалуйста, заполните анкету</h2>
+        <form id="weddingForm" data-aos="fade-up" data-aos-delay="100">
+            <label for="names">
+                <p>Ваши имена</p>
+            </label>
+            <input type="text" id="names" name="names" required>
+
+            <p>Сможете ли вы присутствовать на нашем торжестве?</p>
+            <label>
+                <input type="radio" name="attendance" value="yes" required> Обязательно приду
+            </label>
+            <label>
+                <input type="radio" name="attendance" value="no"> Нет, не смогу
+            </label>
+
+            <label for="guests">
+                <p>В каком составе вы будете?</p>
+            </label>
+            <input type="text" id="guests" name="guests" placeholder="Например: я и мой супруг/партнёр">
+
+            <p>Какой алкоголь предпочитаете?</p>
+
+            <label>
+                <input type="radio" name="alcohol" value="Шампанское">
+                Шампанское
+            </label>
+
+            <label>
+                <input type="radio" name="alcohol" value="Вино">
+                Вино
+            </label>
+
+            <label>
+                <input type="radio" name="alcohol" value="Коньяк">
+                Коньяк
+            </label>
+
+            <label>
+                <input type="radio" name="alcohol" value="Водка">
+                Водка
+            </label>
+
+            <label>
+                <input type="radio" name="alcohol" value="Безалкогольные напитки">
+                Безалкогольные напитки
+            </label>
+
+            <button type="submit">Ответить</button>
+        </form>
+    </section>
+
+    <section id="contacts">
+        <h2 data-aos="fade-up">Контакты</h2>
+        <p data-aos="fade-up" data-aos-delay="100">
+            Если в день свадьбы у вас возникнут вопросы, звоните:
+            <a href="tel:+79222520200">Мария +7 922 252 0200</a>
+        </p>
+    </section>
+
+    <section id="countdown-section">
+        <h2 data-aos="zoom-in" data-aos="fade-up">До свадьбы осталось</h2>
+        <div id="countdown"></div>
+    </section>
+
+    <div id="mapModal" class="modal">
+        <div class="modal-content" data-aos="zoom-in">
+            <span class="close">&times;</span>
+            <h3>Открыть на карте</h3>
+            <p>Выберите сервис:</p>
+            <button class="map-btn" data-map="google">Google Maps</button>
+            <button class="map-btn" data-map="yandex">Яндекс.Карты</button>
+            <button class="map-btn" data-map="2gis">2ГИС</button>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
