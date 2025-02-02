@@ -47,10 +47,3 @@ mapButtons.forEach(button => {
         window.open(url, "_blank");
     });
 });
-
-const weddingForm = document.getElementById("weddingForm");
-weddingForm.addEventListener("submit", function (e) {
-    e.preventDefault();
-    alert("Success. Testing form.");
-    weddingForm.reset();
-});
