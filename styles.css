@@ -485,6 +485,13 @@ label {
     font-size: 1.5rem;
 }
 
+@media screen and (min-width: 415px) and (max-width: 537px) {
+    #contacts p {
+        width: 370px;
+        margin: 0 auto;
+    }
+}
+
 #contacts a {
     color: var(--accent-color);
     font-weight: 600;
